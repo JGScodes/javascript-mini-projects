@@ -1,0 +1,3 @@
+[submodule "react-pics"]
+	path = react-pics
+	url = https://github.com/JGScodes/react-pics
