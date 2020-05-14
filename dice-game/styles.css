@@ -1,8 +1,11 @@
+html {
+  background-color: #ff724c;
+}
+
 .container {
   display: flex;
   justify-content: center;
   width: 60%;
-  border: 1px solid red;
   margin: 0 auto;
   height: 400px;
 }
@@ -19,9 +22,11 @@ b {
 
 button {
   display: block;
-  margin: 10px auto 0 auto;
-  padding: 20px 200px;
+  margin: 40px auto 0 auto;
+  padding: 20px 15%;
   cursor: pointer;
+  border: 1px solid black;
+  outline: 0;
 }
 
 button:hover {
@@ -32,4 +37,49 @@ button:hover {
   border: 1px solid black;
   width: 100%;
   text-align: center;
+  background-color: #fff;
+}
+
+.dice-img-1,
+.dice-img-2 {
+  display: block;
+  margin: 50px auto;
+  width: 50%;
+  height: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media only screen and (max-width: 950px) {
+  .container {
+    flex-direction: column;
+    width: 60%;
+  }
+
+  .dice-container {
+    height: 400px;
+    overflow: hidden;
+  }
+
+  button {
+    margin-top: 50px;
+  }
+
+  .dice-img-1,
+  .dice-img-2 {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .dice-img-1,
+  .dice-img-2 {
+    margin-top: 10px;
+  }
 }
