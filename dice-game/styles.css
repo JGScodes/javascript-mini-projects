@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  border: 1px solid red;
+  margin: 0 auto;
+  height: 400px;
+}
+
+h1 {
+  text-align: center;
+}
+
+b {
+  font-size: 20px;
+  margin-top: 10px;
+  display: block;
+}
+
+button {
+  display: block;
+  margin: 10px auto 0 auto;
+  padding: 20px 200px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: skyblue;
+}
+
+.dice-container {
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+}
