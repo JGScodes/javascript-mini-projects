@@ -23,7 +23,6 @@ function updateOutput(el, num) {
 function builder(num) {
   let div = document.createElement("div");
   let dieArray = dice[num - 1];
-  console.log(dieArray);
   for (let x = 1; x < 10; x++) {
     let span = document.createElement("div");
     span.setAttribute("class", "dot");
