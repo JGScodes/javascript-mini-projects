@@ -3,6 +3,7 @@ let startTime, endTime;
 const message = document.querySelector(".message");
 const playText = document.querySelector("textarea");
 const button = document.querySelector("button");
+
 button.addEventListener("click", function () {
   if (this.innerText == "Start") {
     playText.disabled = false;

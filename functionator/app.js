@@ -103,26 +103,26 @@ function randomColor() {
   return "#" + Math.random().toString(16).substr(-6);
 }
 
-function goLeft() {
-  let temp = myBlock.offsetLeft;
-  temp = temp - 50;
-  myBlock.style.left = temp + "px";
-}
+// function goLeft() {
+//   let temp = myBlock.offsetLeft;
+//   temp = temp - 50;
+//   myBlock.style.left = temp + "px";
+// }
 
-function goRight() {
-  let temp = myBlock.offsetLeft;
-  temp = temp + 50;
-  myBlock.style.left = temp + "px";
-}
+// function goRight() {
+//   let temp = myBlock.offsetLeft;
+//   temp = temp + 50;
+//   myBlock.style.left = temp + "px";
+// }
 
-function goUp() {
-  let temp = myBlock.offsetTop;
-  temp = temp - 50;
-  myBlock.style.top = temp + "px";
-}
+// function goUp() {
+//   let temp = myBlock.offsetTop;
+//   temp = temp - 50;
+//   myBlock.style.top = temp + "px";
+// }
 
-function goDown() {
-  let temp = myBlock.offsetTop;
-  temp = temp + 50;
-  myBlock.style.top = temp + "px";
-}
+// function goDown() {
+//   let temp = myBlock.offsetTop;
+//   temp = temp + 50;
+//   myBlock.style.top = temp + "px";
+// }
