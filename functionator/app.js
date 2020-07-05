@@ -81,18 +81,18 @@ function addFun(val) {
   span.addEventListener("mouseover", function () {
     this.style.backgroundColor = "red";
     this.style.color = "white";
-  })
+  });
   span.addEventListener("mouseout", function () {
     this.style.backgroundColor = "white";
     this.style.color = "black";
-  })
+  });
   span.addEventListener("click", function () {
     let curIndex = funList.indexOf(this);
     console.log(curIndex);
     let tempRemove = funList.splice(curIndex, 1);
     console.log(tempRemove);
     myFunctionList.removeChild(this);
-  })
+  });
   myFunctionList.appendChild(span);
   funList.push(span);
   console.log(funList);

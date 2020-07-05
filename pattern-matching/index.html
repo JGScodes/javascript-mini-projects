@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .gameArea {
+      height: 200px;
+      width: 200px;
+      border: 1px solid black;
+      font-size: 0;
+    }
+
+    .box {
+      height: 50%;
+      width: 50%;
+      color: black;
+      text-align: center;
+      display: inline-block;
+    }
+
+    .active {
+      border: 1px solid red;
+      color: red;
+    }
+
+    .message,
+    .gameArea,
+    button {
+      margin: auto;
+      text-align: center;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="message">Press Start Button</div>
+  <div class="gameArea"></div>
+  <button type="button">Start</button>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
